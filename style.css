@@ -33,8 +33,17 @@
     text-align: center;
     padding: 14px 50px;
     text-decoration: none;
+    border-bottom: 3px solid transparent;
   }
 
+  .navbar a:hover {
+    background-color: #414142;
+  }
+
+  .navbar a.active {
+    border-bottom: 3px solid #41A0E6;
+  }
+  
   @media screen and (max-width: 400px) {
     .navbar a {
       float: none;
@@ -58,6 +67,11 @@
     font-weight: 200;
   }
 
+  div {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+  }
+
   .intro {
       position: relative;
       top: 40px;
@@ -72,4 +86,47 @@
     color: white;
     font-size: 50px;
     text-align: center;
+}
+
+.intro3 {
+    position: relative;
+    top: -100px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.intro4 {
+    position: relative;
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    margin: 75px 0px 25px 0px;
+}
+@media screen and (max-width: 925px) {
+    .intro4 {
+      margin: 100px 0px 25px 0px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .intro4 {
+      margin: 150px 0px 25px 0px;
+    }
+}
+
+.p-block{
+    position: relative;
+    color:white;
+    font-size: 16px;
+    text-align: left;
+}
+
+.container{
+    padding: 16px; 
+    margin-top: 50px;
+}
+
+.container1{
+    padding: 16px; 
+    background-color: #3C6BF0;
 }
